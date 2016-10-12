@@ -12,7 +12,7 @@ Adafruit_NeoPixel pixels = Adafruit_NeoPixel(NUMPIXELS, PIN, NEO_GRB + NEO_KHZ80
 
 const int ledPin[2] = {3, 5};       // the pin that the LED is attached to
 
-int numOfMarbles[6] = {3, 3, 0, 0, 0, 0};
+int numOfMarbles[6] = {3, 3, 0, 3, 3, 0};
 int currentLightValues[6];
 int photocellReading[6];     // the analog reading from the sensor divider
 
